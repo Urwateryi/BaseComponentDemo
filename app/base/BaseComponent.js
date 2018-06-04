@@ -6,12 +6,10 @@
  * Time: 2018/6/4 0031
  */
 import React, { PureComponent } from "react";
-import { StyleSheet, View, Text, ToastAndroid, Image, TouchableOpacity, Dimensions, ActivityIndicator, NetInfo } from "react-native";
+import { StyleSheet, View, Text, ToastAndroid, Image, TouchableOpacity, Dimensions, ActivityIndicator } from "react-native";
 import Colors from "../resources/Colors";
 import Images from "../resources/Images";
 import { Actions } from 'react-native-router-flux'
-import NetErrorPage from "./NetErrorPage";
-import PageThree from "../screens/PageThree";
 
 export default class BaseComponent extends PureComponent {
 
