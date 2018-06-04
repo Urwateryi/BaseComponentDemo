@@ -2,13 +2,12 @@
  * Description:
  *
  * Author: zoe
- * Time: 2018/5/31 0031
+ * Time: 2018/6/4 0031
  */
 import React from "react";
-import { StyleSheet, View, Text, Image,ToastAndroid } from "react-native";
+import { StyleSheet, View, Text,ToastAndroid } from "react-native";
 import BaseComponent from "../base/BaseComponent";
 import Colors from "../resources/Colors";
-import Images from "../resources/Images";
 
 export default class PageOne extends BaseComponent {
 
@@ -26,7 +25,7 @@ export default class PageOne extends BaseComponent {
     }
 
     onClickRightBtnRight(){
-        ToastAndroid.show('show 你妹啊',ToastAndroid.SHORT)
+        ToastAndroid.show('点击了右上角按钮',ToastAndroid.SHORT)
     }
 
     renderComponent() {

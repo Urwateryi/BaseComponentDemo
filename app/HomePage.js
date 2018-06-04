@@ -2,7 +2,7 @@
  * Description:
  *
  * Author: zoe
- * Time: 2018/5/29 0029
+ * Time: 2018/6/4 0029
  */
 import React,{ PureComponent } from "react";
 import { StyleSheet, View, Text } from "react-native";

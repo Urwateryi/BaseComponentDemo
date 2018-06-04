@@ -7,7 +7,7 @@ import HomePage from "./HomePage";
 import BaseComponent from "./base/BaseComponent";
 import PageOne from "./screens/PageOne";
 import PageTwo from "./screens/PageTwo";
-import NetErrorPage from "./base/NetErrorPage";
+import NetErrorPage from "./components/NetErrorPage";
 import PageThree from "./screens/PageThree";
 
 export default class RouterApp extends PureComponent {
